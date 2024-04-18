@@ -2,6 +2,10 @@ package class1;
 
 public class ClassStart1 {
 
+    /*
+        변수 사용
+        - 한계 : 학생이 늘어날 때 마다 변수를 추가로 선언해야 하고, 출력하는 코드도 추가해야한다.
+     */
     public static void main(String[] args) {
         String student1Name = "student1";
         int student1Age = 15;
