@@ -7,11 +7,11 @@ public class ClassStart1 {
         - 한계 : 학생이 늘어날 때 마다 변수를 추가로 선언해야 하고, 출력하는 코드도 추가해야한다.
      */
     public static void main(String[] args) {
-        String student1Name = "student1";
+        String student1Name = "학생1";
         int student1Age = 15;
         int student1Grade = 90;
 
-        String student2Name = "student2";
+        String student2Name = "학생2";
         int student2Age = 16;
         int student2Grade = 80;
 

@@ -23,6 +23,12 @@ public class ClassStart3 {
             따라서 이 변수를 통해서 객체를 접근(참조) 할 수 있다.
          */
         student1 = new Student();
+        /*
+            객체 사용
+            객체에 접근하려면 .(점, dot) 키워드를 사용하면 된다. 이 키워드는 변수(student1)에 들어있는 참조값(x001)을 읽어서 메모리에 존재하는 객체에 접근한다.
+            student1.(dot)이라고하면 student1 변수가 가지고 있는 참조값을 통해 실제 객체에 접근한다.
+            student1은 x001이라는 참조값을 가지고 있으므로 x001 위치에 있는 Student 객체에 접근한다.
+         */
         student1.name = "학생1";
         student1.age = 15;
         student1.grade = 90;
